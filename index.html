@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neha.S | Full Stack Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+
+  <!-- Typed.js CDN for typing effect -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+  <!-- Header/Navbar -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <div>
+          <h1>Neha S</h1>
+          <p class="tagline"><span id="typed-tagline"></span></p>
+        </div>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="resume.pdf" download class="resume-btn">Download Resume</a></li>
+      </ul>
+      <div class="theme-toggle" id="themeToggle" title="Toggle dark/light mode">
+        <span class="toggle-icon">🌙</span>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section (Hero) -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      <div class="profile-container" data-aos="fade-right" data-aos-duration="800">
+        <img src="images/NEHA.jpg" alt="Profile" class="profile-pic">
+      </div>
+      <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+        <h2>Hello, I'm Neha.S</h2>
+        <p>Motivated Full Stack Developer passionate about building impactful digital solutions.</p>
+        <a href="#contact" class="cta-btn">Let's Connect</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container" data-aos="fade-up">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I'm a detail-oriented BCA graduate with a strong foundation in web development, programming, and database management. I thrive in collaborative environments and love solving real-world problems with technology.</p>
+          <p>My passion lies in building scalable solutions, learning new technologies, and contributing to innovative teams. I bring a positive attitude and a willingness to continuously learn and adapt.</p>
+          <p>Currently, I'm focused on growing as a Full Stack Developer through impactful real-world work and continuous learning.</p>
+        </div>
+        <div class="about-counters">
+          
+          <div class="counter-box">
+            <span class="counter" data-target="2">0</span>
+            <p>Projects Completed</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="skills-content">
+        <div class="skills-category" data-aos="fade-right" data-aos-delay="100">
+          <h3>Frontend</h3>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg" alt="HTML" title="HTML5" class="tech-icon">
+            <span>HTML</span>
+            <div class="progress" data-progress="95"></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS" title="CSS3" class="tech-icon">
+            <span>CSS</span>
+            <div class="progress" data-progress="90"></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" title="JavaScript" class="tech-icon">
+            <span>JavaScript</span>
+            <div class="progress" data-progress="85"></div>
+          </div>
+        </div>
+        <div class="skills-category" data-aos="fade-right" data-aos-delay="200">
+          <h3>Backend</h3>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg" alt="PHP" title="PHP" class="tech-icon">
+            <span>PHP</span>
+            <div class="progress" data-progress="80"></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mysql.svg" alt="SQL" title="MySQL" class="tech-icon">
+            <span>SQL</span>
+            <div class="progress" data-progress="80"></div>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/python.svg" alt="Python" title="Python" class="tech-icon">
+            <span>Python</span>
+            <div class="progress" data-progress="75"></div>
+          </div>
+        </div>
+        <div class="skills-category" data-aos="fade-right" data-aos-delay="300">
+          <h3>Tools & Technologies</h3>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/visualstudiocode.svg" alt="VS Code" title="VS Code" class="tech-icon">
+            <span>VS Code</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/git.svg" alt="Git" title="Git" class="tech-icon">
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/xampp.svg" alt="XAMPP" title="XAMPP" class="tech-icon">
+            <span>XAMPP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          
+          <div class="timeline-content">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Milagres College | 2022 – 2025</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          
+          <div class="timeline-content">
+            <h3>Python Full Stack Development</h3>
+            <p>Pentagon Space (Online) | Ongoing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Experience</h2>
+      <div class="experience-timeline">
+        <div class="exp-card">
+          <h3>Intern - Software Development</h3>
+          <p class="exp-role">YugaYatra Retail (OPC) Pvt. Ltd.</p>
+          <span class="exp-duration">july 7th 2025 – sept 7th 2025 (2 Months)</span>
+          <p>Completed a 2-month internship focused on full-stack development. Built and deployed a responsive portfolio using modern tools like HTML, CSS, JavaScript, Tailwind CSS, and Cursor AI under the mentorship of Mr. Debashish Kumar (CEO).</p>
+          <p>Gained hands-on experience in GitHub version control, UI/UX principles, and modern frontend frameworks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Projects</h2>
+      <div class="filter-buttons" data-aos="fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="php">PHP</button>
+        <button class="filter-btn" data-filter="js">JavaScript</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-tech="php" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/villa.jpeg" alt="Villa Bliss Screenshot" class="project-thumb">
+          <h3>Villa Bliss</h3>
+          <p>Villa Booking Management System with user login, admin panel, and payment integration.</p>
+          <div class="tech-stack">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg" alt="HTML" title="HTML5" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS" title="CSS3" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" title="JavaScript" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg" alt="PHP" title="PHP" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mysql.svg" alt="MySQL" title="MySQL" class="tech-icon">
+          </div>
+          <div class="project-stats">
+            <span><i class="fas fa-star"></i> 15 Stars</span>
+            <span><i class="fas fa-code-fork"></i> 5 Forks</span>
+          </div>
+          <div class="project-links">
+            <button onclick="window.open('https://villabliss.kesug.com/', '_blank')" class="btn btn-primary">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </button>
+            <button onclick="window.open('https://github.com/neha05prg/villa-bliss.git', '_blank')" class="btn btn-secondary">
+              <i class="fab fa-github"></i> View Code
+            </button>
+          </div>
+        </div>
+        <div class="project-card" data-tech="php" data-aos="fade-up" data-aos-delay="200">
+          <img src="https://static.vecteezy.com/system/resources/previews/012/443/044/original/online-food-order-grocery-delivery-woman-shop-at-an-online-store-the-product-catalog-on-the-web-browser-page-stay-at-home-concept-quarantine-or-self-isolation-png.png" alt="Zapzoo Grocery Store" class="project-thumb" />
+          <h3>Zapzoo</h3>
+          <p>An online grocery store system with product listings, cart system, order tracking, and admin dashboard.</p>
+          <div class="tech-stack">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg" alt="HTML" title="HTML5" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS" title="CSS3" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" title="JavaScript" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/php.svg" alt="PHP" title="PHP" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mysql.svg" alt="MySQL" title="MySQL" class="tech-icon">
+          </div>
+          <div class="project-stats">
+            <span><i class="fas fa-star"></i> 12 Stars</span>
+            <span><i class="fas fa-code-fork"></i> 3 Forks</span>
+          </div>
+          <div class="project-links">
+            
+              
+            
+            <button onclick="window.open('https://github.com/neha05prg/Zapzoo.git', '_blank')" class="btn btn-secondary">
+              <i class="fab fa-github"></i> View Code
+            </button>
+          </div>
+        </div>
+        <div class="project-card" data-tech="js" data-aos="fade-up" data-aos-delay="300">
+          
+          <img src="images/Portfolio.jpg" alt="portfolio" class="project-thumb">
+          <h3>Portfolio Website</h3>
+          <p>Fully responsive personal portfolio website with dark/light mode, smooth animations, and email contact form.</p>
+          <div class="tech-stack">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/html5.svg" alt="HTML" title="HTML5" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/css3.svg" alt="CSS" title="CSS3" class="tech-icon">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/javascript.svg" alt="JavaScript" title="JavaScript" class="tech-icon">
+          </div>
+          <div class="project-stats">
+            <span><i class="fas fa-star"></i> 8 Stars</span>
+            <span><i class="fas fa-code-fork"></i> 2 Forks</span>
+          </div>
+          <div class="project-links">
+            <button onclick="window.open('https://neha05prg.github.io/Portfolio1/', '_blank')" class="btn btn-primary">
+              <i class="fas fa-external-link-alt"></i> Live Site
+            </button>
+            <button onclick="window.open('https://github.com/neha05prg/Portfolio1.git', '_blank')" class="btn btn-secondary">
+              <i class="fab fa-github"></i> View Code
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog" class="blog-section">
+    <div class="container" data-aos="fade-up">
+      <h2>My Writings</h2>
+      <div class="blog-grid">
+        <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+          <h3>Coming Soon!</h3>
+          <p>I'm working on sharing my technical insights and experiences. Stay tuned for upcoming articles!</p>
+          <button onclick="window.open('#', '_blank')" class="btn btn-primary">
+            <i class="fas fa-book-reader"></i> Follow My Journey
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Certifications Section -->
+  <section id="certifications" class="certifications-section">
+    <div class="container" data-aos="fade-up">
+      <h3>Certifications</h3>
+      <div class="certifications-grid">
+        <div class="cert-card">
+          <h3>Cybersecurity – ISC2</h3>
+          <p class="cert-meta">Udemy, 2024</p>
+        </div>
+        <div class="cert-card">
+          <h3>Front End Development (HTML)</h3>
+          <p class="cert-meta">Great Learning</p>
+        </div>
+        <div class="cert-card">
+          <h3>Full Stack 101</h3>
+          <p class="cert-meta">Simplilearn</p>
+        </div>
+        <div class="cert-card">
+          <h3>Google Cloud: AI & Data Transformation</h3>
+          <p class="cert-meta">Simplilearn</p>
+        </div>
+      </div>
+    </div>
+    <!-- SVG Wave Divider -->
+    <div class="cert-wave-divider">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="certWaveGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+            <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.8"/>
+          </linearGradient>
+        </defs>
+        <path d="M0,40 C360,120 1080,0 1440,80 L1440,120 L0,120 Z" fill="url(#certWaveGradient)"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container" data-aos="fade-up">
+      <h2>Get in Touch</h2>
+      <form id="contactForm" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+      
+      <div class="social-links">
+        <a href=" https://www.linkedin.com/in/neha-s-1a1658319" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/neha05prg" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:nehasdevadiga5@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+      
+      <div id="toast" class="toast">Message sent successfully!</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; Neha S <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
